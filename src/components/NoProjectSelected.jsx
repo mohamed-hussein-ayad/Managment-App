@@ -1,7 +1,7 @@
 import NoProjectImage from "../assets/no-projects.png";
 import Button from "./Button";
 
-export default function NoProjectSelected() {
+export default function NoProjectSelected({ onStartAddProject }) {
   return (
     <div className="mt-24 text-center w-2/3 ">
       <img
